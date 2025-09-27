@@ -12,7 +12,7 @@ output "instance_subnet" {
 }
 
 output "instance_ami" {
-  description = "Creating ec2 instance"
+  description = "Creating example ec2 instance"
   value = aws_instance.app_server.ami
 }
 
